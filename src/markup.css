@@ -31,21 +31,32 @@
 .mk-exponent {
     vertical-align: super;
     font-family: serif;
+    font-size: 75%;
 }
 
 .mk-superscript {
     vertical-align: super;
+    font-size: 75%;
 }
 
 .mk-subscript {
     vertical-align: sub;
+    font-size: 75%;
 }
 
-.mk-tiny {
+.mk-smaller {
     font-size: 50%;
 }
 
+.mk-small {
+    font-size: 75%;
+}
+
 .mk-large {
+    font-size: 125%;
+}
+
+.mk-larger {
     font-size: 150%;
 }
 
