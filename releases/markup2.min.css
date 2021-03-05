@@ -1,0 +1,7 @@
+/*
+*        MarkupCSS 2 - AceiusIO   
+*     https://acei.us/#MarkupCSS-2
+* Licenced under GNU GPL v3.0 or later
+*/
+
+.mk-bold{font-weight:bolder}.mk-bolder{font-weight:bold}.mk-itallic{font-style:italic}.mk-underline{text-decoration:underline}.mk-strikethrough{text-decoration:line-through}.mk-exponent{vertical-align:super;font-family:serif}.mk-superscript{vertical-align:super}.mk-subscript{vertical-align:sub}.mk-highlight-red{background-color:tomato}.mk-highlight-orange{background-color:orange}.mk-highlight-yellow{background-color:yellow}.mk-highlight-green{background-color:greenyellow}.mk-highlight-blue{background-color:cyan}.mk-highlight-purple{background-color:darkorchid}.mk-highlight-blackout{background-color:black;color:black}.mk-color-red{color:tomato}.mk-color-orange{color:orange}.mk-color-yellow{color:yellow}.mk-color-green{color:greenyellow}.mk-color-blue{color:cyan}.mk-color-purple{color:darkorchid}.mk-color-black{color:black}.mk-font-arial{font-family:Arial, sans-serif}.mk-font-calibri{font-family:Calibri, sans-serif}.mk-font-helvetica{font-family:Helvetica, sans-serif}.mk-font-mono{font-family:monospace}.mk-font-sans{font-family:sans-serif}.mk-font-serif{font-family:serif}
