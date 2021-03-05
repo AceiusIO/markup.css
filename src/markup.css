@@ -26,6 +26,8 @@
     text-decoration: line-through;
 }
 
+/* Font Sizing */
+
 .mk-exponent {
     vertical-align: super;
     font-family: serif;
@@ -37,6 +39,20 @@
 
 .mk-subscript {
     vertical-align: sub;
+}
+
+.mk-tiny {
+    font-size: 50%;
+}
+
+.mk-large {
+    font-size: 150%;
+}
+
+.mk-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
 }
 
 /* Highlights */
