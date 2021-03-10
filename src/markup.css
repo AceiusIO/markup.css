@@ -4,6 +4,8 @@
 * https://github.com/AceiusIO/markup.css
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
+
 /* Basic Formatting */
 
 .mk-bold {
@@ -111,6 +113,11 @@
     color: black;
 }
 
+.mk-highlight-barcode {
+    font-family: 'Libre Barcode 39 Text', cursive;
+    color: black;
+}
+
 .mk-rounded {
     border-radius: 2px;
     padding: 2.5px;
@@ -158,6 +165,10 @@
 
 .mk-font-helvetica {
     font-family: Helvetica, sans-serif;
+}
+
+.mk-font-cursive {
+    font-family: cursive;
 }
 
 .mk-font-mono {
