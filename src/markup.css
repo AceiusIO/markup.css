@@ -97,6 +97,11 @@
     color: black;
 }
 
+.mk-rounded {
+    border-radius: 2px;
+    padding: 2.5px;
+}    
+
 /* Standard Coloring */
 
 .mk-color-red {
