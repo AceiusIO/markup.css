@@ -26,6 +26,12 @@
     text-decoration: line-through;
 }
 
+/* text centering */
+
+.mk-align-center {
+    text-align: center;
+}
+
 /* Font Sizing */
 
 .mk-exponent {
