@@ -26,10 +26,18 @@
     text-decoration: line-through;
 }
 
-/* text centering */
+/* Text Alignment */
 
 .mk-align-center {
     text-align: center;
+}
+
+.mk-align-left {
+    text-align: left;
+}
+
+.mk-align-right {
+    text-align: right;
 }
 
 /* Font Sizing */
