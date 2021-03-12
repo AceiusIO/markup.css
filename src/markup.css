@@ -1,7 +1,7 @@
 /*
-*          MarkupCSS - AceiusIO        
-*  Licenced under GNU GPL v3.0 or later 
-* https://github.com/AceiusIO/markup.css
+*        MarkupCSS 2 - AceiusIO   
+*     https://acei.us/#MarkupCSS-2
+* Licenced under GNU GPL v3.0 or later
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
@@ -28,92 +28,51 @@
     text-decoration: line-through;
 }
 
-/* Text Alignment */
-
-.mk-align-center {
-    text-align: center;
-}
-
-.mk-align-left {
-    text-align: left;
-}
-
-.mk-align-right {
-    text-align: right;
-}
-
-/* Font Sizing */
-
-.mk-exponent {
+.mk-script .exponent {
     vertical-align: super;
     font-family: serif;
-    font-size: 75%;
 }
 
-.mk-superscript {
+.mk-script .super {
     vertical-align: super;
-    font-size: 75%;
 }
 
-.mk-subscript {
+.mk-script .sub {
     vertical-align: sub;
-    font-size: 75%;
-}
-
-.mk-smaller {
-    font-size: 50%;
-}
-
-.mk-small {
-    font-size: 75%;
-}
-
-.mk-large {
-    font-size: 125%;
-}
-
-.mk-larger {
-    font-size: 150%;
-}
-
-.mk-title {
-    text-align: center;
-    font-weight: bold;
-    font-size: 150%;
 }
 
 /* Highlights */
 
-.mk-highlight-red {
+.mk-highlight .red {
     background-color: tomato;
 }
 
-.mk-highlight-orange {
+.mk-highlight .orange {
     background-color: orange;
 }
 
-.mk-highlight-yellow {
+.mk-highlight .yellow {
     background-color: yellow;
 }
 
-.mk-highlight-green {
+.mk-highlight .green {
     background-color: greenyellow;
 }
 
-.mk-highlight-blue {
+.mk-highlight .blue {
     background-color: cyan;
 }
 
-.mk-highlight-purple {
+.mk-highlight .purple {
     background-color: darkorchid;
 }
 
-.mk-highlight-blackout {
+.mk-highlight .blackout {
     background-color: black;
     color: black;
 }
 
-.mk-highlight-barcode {
+.mk-highlight .barcode {
     font-family: 'Libre Barcode 39 Text', cursive;
     color: black;
 }
@@ -125,60 +84,56 @@
 
 /* Standard Coloring */
 
-.mk-color-red {
+.mk-color .red {
     color: tomato;
 }
 
-.mk-color-orange {
+.mk-color .orange {
     color: orange;
 }
 
-.mk-color-yellow {
+.mk-color .yellow {
     color: yellow;
 }
 
-.mk-color-green {
+.mk-color .green {
     color: greenyellow;
 }
 
-.mk-color-blue {
+.mk-color .blue {
     color: cyan;
 }
 
-.mk-color-purple {
+.mk-color .purple {
     color: darkorchid;
 }
 
-.mk-color-black {
+.mk-color .black {
     color: black;
 }
 
 /* Common Websafe Fonts */
 
-.mk-font-arial {
+.mk-font .arial {
     font-family: Arial, sans-serif;
 }
 
-.mk-font-calibri {
+.mk-font .calibri {
     font-family: Calibri, sans-serif;
 }
 
-.mk-font-helvetica {
+.mk-font .helvetica {
     font-family: Helvetica, sans-serif;
 }
 
-.mk-font-cursive {
-    font-family: cursive;
-}
-
-.mk-font-mono {
+.mk-font .mono {
     font-family: monospace;
 }
 
-.mk-font-sans {
+.mk-font .sans {
     font-family: sans-serif;
 }
 
-.mk-font-serif {
+.mk-font .serif {
     font-family: serif;
 }

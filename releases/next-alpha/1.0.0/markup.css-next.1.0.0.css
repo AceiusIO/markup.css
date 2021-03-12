@@ -1,8 +1,6 @@
-/*
-*        MarkupCSS 2 - AceiusIO   
-*     https://acei.us/#MarkupCSS-2
-* Licenced under GNU GPL v3.0 or later
-*/
+/*  Markup.css ne/xt | https://acei.us/#MarkupCSS-2 | Licenced under GNU GPL v3.0 or later */
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
 
 /* Basic Formatting */
 
@@ -26,102 +24,112 @@
     text-decoration: line-through;
 }
 
-.mk-exponent {
+.mk-script .exponent {
     vertical-align: super;
     font-family: serif;
 }
 
-.mk-superscript {
+.mk-script .super {
     vertical-align: super;
 }
 
-.mk-subscript {
+.mk-script .sub {
     vertical-align: sub;
 }
 
 /* Highlights */
 
-.mk-highlight-red {
+.mk-highlight .red {
     background-color: tomato;
 }
 
-.mk-highlight-orange {
+.mk-highlight .orange {
     background-color: orange;
 }
 
-.mk-highlight-yellow {
+.mk-highlight .yellow {
     background-color: yellow;
 }
 
-.mk-highlight-green {
+.mk-highlight .green {
     background-color: greenyellow;
 }
 
-.mk-highlight-blue {
+.mk-highlight .blue {
     background-color: cyan;
 }
 
-.mk-highlight-purple {
+.mk-highlight .purple {
     background-color: darkorchid;
 }
 
-.mk-highlight-blackout {
+.mk-highlight .blackout {
     background-color: black;
     color: black;
 }
 
+.mk-highlight .barcode {
+    font-family: 'Libre Barcode 39 Text', cursive;
+    color: black;
+}
+
+.mk-rounded {
+    border-radius: 2px;
+    padding: 2.5px;
+}    
+
 /* Standard Coloring */
 
-.mk-color-red {
+.mk-color .red {
     color: tomato;
 }
 
-.mk-color-orange {
+.mk-color .orange {
     color: orange;
 }
 
-.mk-color-yellow {
+.mk-color .yellow {
     color: yellow;
 }
 
-.mk-color-green {
+.mk-color .green {
     color: greenyellow;
 }
 
-.mk-color-blue {
+.mk-color .blue {
     color: cyan;
 }
 
-.mk-color-purple {
+.mk-color .purple {
     color: darkorchid;
 }
 
-.mk-color-black {
+.mk-color .black {
     color: black;
 }
 
 /* Common Websafe Fonts */
 
-.mk-font-arial {
+.mk-font .arial {
     font-family: Arial, sans-serif;
 }
 
-.mk-font-calibri {
+.mk-font .calibri {
     font-family: Calibri, sans-serif;
 }
 
-.mk-font-helvetica {
+.mk-font .helvetica {
     font-family: Helvetica, sans-serif;
 }
 
-.mk-font-mono {
+.mk-font .mono {
     font-family: monospace;
 }
 
-.mk-font-sans {
+.mk-font .sans {
     font-family: sans-serif;
 }
 
-.mk-font-serif {
+.mk-font .serif {
     font-family: serif;
 }
