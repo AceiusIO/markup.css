@@ -41,6 +41,22 @@
     vertical-align: sub;
 }
 
+.mk-smaller {
+    font-size: 50%;
+}
+
+.mk-small {
+    font-size: 75%;
+}
+
+.mk-large {
+    font-size: 125%;
+}
+
+.mk-larger {
+    font-size: 150%;
+}
+
 /* Highlights */
 
 .mk-highlight .red {
