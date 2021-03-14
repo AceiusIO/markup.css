@@ -2,6 +2,8 @@
 
 // Basic Text
 
+// we are using var not const or let for compatability
+
 var m_text = Vue.component('m-text', {
     template: `<p><slot></slot></p>`,
     name: 'm-text'
