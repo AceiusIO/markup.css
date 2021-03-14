@@ -60,14 +60,27 @@ var m_smaller = Vue.component('m-smaller', {
     name: 'm-smaller'
 });
 
-var m_title = Vue.component('m-large', {
-    template: `<span class="mk-large"><slot></slot></span>`,
-    name: 'm-large'
+var m_title = Vue.component('m-title', {
+    template: `<span class="mk-title">
+        <h1>
+            <slot></slot>
+        </h1>
+    </span>`,
+    name: 'm-title'
 });
 
-var m_large = Vue.component('m-title', {
-    template: `<span class="mk-title"><slot></slot></span>`,
-    name: 'm-title'
+var m_subtitle = Vue.component('m-subtitle', {
+    template: `<span class="mk-title">
+        <h3>
+            <slot></slot>
+        </h3>
+    </span>`,
+    name: 'm-subtitle'
+});
+
+var m_large = Vue.component('m-large', {
+    template: `<span class="mk-large"><slot></slot></span>`,
+    name: 'm-large'
 });
 
 var m_larger = Vue.component('m-larger', {
@@ -148,4 +161,29 @@ var m_color_b = Vue.component('m-color-b', {
 var m_color_p = Vue.component('m-color-p', {
     template: `<span class="mk-color purple"><slot></slot></span>`,
     name: 'm-color-p'
+});
+
+//Interactive
+
+var m_button = Vue.component('m-btn', {
+    template: `<button :onclick="onclick" class="mk-button" :style="'background-color: ' + color + ';'">
+        <slot />
+    </button>`,
+    props: ['color', 'onclick'],
+    name: 'm-btn'
+});
+
+//Divs
+
+var m_header = Vue.component('m-header', {
+    template: `<header class=""></header>`,
+    props: ['color', 'onclick'],
+    name: 'm-header'
+});
+
+var app = new Vue({
+    el: '#m-app',
+    components: {
+        
+    }
 });

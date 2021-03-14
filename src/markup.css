@@ -28,6 +28,22 @@
     text-decoration: line-through;
 }
 
+/* Text Alignment */
+
+.mk-align-center {
+    text-align: center;
+}
+
+.mk-align-left {
+    text-align: left;
+}
+
+.mk-align-right {
+    text-align: right;
+}
+
+/* Font Sizing */
+
 .mk-script .exponent {
     vertical-align: super;
     font-family: serif;
@@ -152,4 +168,36 @@
 
 .mk-font .serif {
     font-family: serif;
+}
+
+/* Interactive */
+
+.mk-button {
+    font-family: 'Ubuntu';
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: #2e2e2c;
+    display: block;
+    border: 0;
+}
+
+.mk-button:hover {
+    background-color: lightgray;
+    font-family: 'Ubuntu';
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: #2e2e2c;
+    display: block;
+    border: 0;
+}
+
+/* Divs */
+
+.mk-header {
+    border-color: lightgray;
+    border-bottom: 1px;
 }
