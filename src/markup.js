@@ -60,9 +60,14 @@ var m_smaller = Vue.component('m-smaller', {
     name: 'm-smaller'
 });
 
-var m_large = Vue.component('m-large', {
+var m_title = Vue.component('m-large', {
     template: `<span class="mk-large"><slot></slot></span>`,
     name: 'm-large'
+});
+
+var m_large = Vue.component('m-title', {
+    template: `<span class="mk-title"><slot></slot></span>`,
+    name: 'm-title'
 });
 
 var m_larger = Vue.component('m-larger', {
