@@ -183,6 +183,10 @@ var m_header = Vue.component('m-header', {
     name: 'm-header'
 });
 
+var m_divider = Vue.component('m-div', {
+    template: `<hr class="mk-div" />`
+});
+
 var app = new Vue({
     el: '#m-app',
     components: {
