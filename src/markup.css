@@ -208,3 +208,8 @@
     color:gray;
     background-color:gray;
 }
+
+.mk-fade {
+    background-image: linear-gradient(to right,rgba( , , ,),rgba( , , ,));
+}
+/* set colors */
