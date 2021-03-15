@@ -105,7 +105,7 @@
 }
 
 .mk-highlight .barcode {
-    font-family: 'Libre Barcode 39 Text', cursive;
+    font-family: 'Libre Barcode 39 Text';
     color: black;
 }
 
